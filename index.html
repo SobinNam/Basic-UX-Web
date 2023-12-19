@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BASIC UX DESIGN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="MyStyle.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Lexend:wght@400;700&family=Nanum+Brush+Script&family=Noto+Sans+KR:wght@300&display=swap"
+        rel="stylesheet">
+
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'dsm4izb',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+    <!-- 네비게이션 영역 시작 -->
+    <nav class="navbar navbar-expand-md bg-light navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="gugi-font navbar-brand" href="#home">
+                <img src="images/logo.png" alt="로고">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+                aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">What is UX Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-chef">UX Ability</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Product Thinking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#service">Develop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Tip</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Who am I</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 네비게이션 영역 끝 -->
+
+
+    <!-- 헤더 영역 시작 -->
+    <header id="home" class="d-flex flex-column justify-content-end align-items-start vh-100 text-white p-4">
+        <h1 class="display-1 fw-bold mb-5 text-end ml-3">BASIC UX DESIGN</h1>
+
+        <h4 class="fs-2 mb-5 mr-5 text-end">“The design is not just what it looks like and feels like. The design is how
+            it works” —
+            Steve Jobs</h4>
+    </header>
+    <!-- 헤더 영역 끝 -->
+
+
+    <!-- 1. What is UX Design? 섹션 시작 -->
+    <section class="container py-5" id="about-chef">
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold">UX Design for Beginner</h2>
+            <p class="lead text-muted">UX를 처음 접하는 사람을 위한 UX 설명서</p>
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-5">
+            </div>
+            <h1 class="fw-bold mb-3" style="color: #5E44E3;">What is UX Design?</h1>
+
+            <div class="card bg-secondary text-light mb-4">
+                <div class="card-body">
+                    <h3 class="fw-bold mb-2 mt-2">나: “전 UX 공부해요!”</h3>
+                    <h3 class="fw-bold mb-2 mt-2">상대방: “...우와! 그게 뭐예요?”</h3>
+                </div>
+            </div>
+
+            <p class="lh-lg mb-3">사람들이 UX를 공부하는 흔히 대학생에게 무엇을 배우는지 물어보면 이런 대화를 하게 된다.
+                내가 1,2학년일 때 나에게 UX가 뭐냐고 물어보면 뭐라고 대답을 해야 할지 정말 고민스러웠다. 아마 UX가 무엇인지 알기 위해 이 웹사이트를 보고 있는 당신도 이미 이 상황을 겪은 적이
+                있거나 그게 아니라면 앞으로 겪게 될 것이다. UX에 대해 적절한 설명을 하기 위해선 먼저 기본을 탄탄하게 알아야 필요가 있다.</p>
+
+            <p class="lh-lg">
+                지금부터 그 기본에 대해 설명하려고 한다. 당신이 앞으로의 내용들을 다 이해한다면, 자신만의 대답을 찾을 수 있을 것이다.</p>
+
+
+
+        </div>
+
+        <div class="row justify-content-center align-items-center mb-5">
+            <div class="col-md-5">
+                <img src="images/word.png" alt="word" class="img-fluid">
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+                <h2 class="fw-bold mb-3">Complexity of Expressions</h2>
+                <p class="lh-lg">위 이미지들에 있는 단어들에 대해 어느정도 알고 있나? 이것들은 하나하나가 책 혹은 과목의 이름들이다. 정말 복잡하고 많다. UX 디자인을 하면서 각종
+                    용어들을 익히고 개념의 틀을 잡는 것은 어려운 일이다. </p>
+                <p class="lh-lg">
+                    하지만 여기서 용어들을 하나하나 설명하지는 않을 것이다. 그런 설명은 Chat GPT에게 물어보도록. 나는 큰 그림에 대해 말하고자 한다.
+                    <span style="color: #5E44E3;">
+                        실제로 당신이 UX 디자이너가 되면 어떤 일을 하는지, 어떤 역량을 필요로 하는지, 그리고 어떻게 하면 잘할 수 있는지에 대해.
+                    </span>
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- 1. What is UX Design? 섹션 끝 -->
+
+
+    <!-- 2. UX Ability 섹션 시작 -->
+    <section class="container overflow-hidden py-5" id="portfolio" style="background-color: #e8ecf0;">
+
+        <div class="container overflow-hidden">
+            <div class="text-center text-black py-5">
+                <h1 class="fw-bold mb-5" style="color: #E35A44;">UX Ability</h1>
+                <p class="mb-5">실무의 관점에서 보면 UX 디자인은
+                    <span style="color: #E35A44;">
+                        ‘서비스 전략을 세우고, 그걸 바탕으로 기획을 해서 최종적으로 구현하는 일’</span>을 한다.
+                    크게 3가지로 나뉘는 것이다.
+                </p>
+                <h4 class="fw-bold mb-3" style="color: #000000;">1. UX 전략</h4>
+                <p>우선 전략은 무엇을 만들지를 정한다.
+                    이때 User Research를 통해 신박한 인사이트나 아이디어를 찾는 것이 목표이다.<br>
+                    주의할 것은 WHO + WHAT + WOW의 관점으로 문제를 살펴야 한다. 어떤 사람이 어떤 과제/업무를 할 때, 감동적인 경험을 줄 것인가?<br>
+                    보통 프로젝트에서는 여정지도, 경험지도 등을 그려 사용자와 서비스 간의 접점을 모두 찾아내 분석하게 된다.<br><br></p>
+
+                    <h4 class="fw-bold mb-3" style="color: #000000;">2. UX 기획</h4>
+                    <p>UX 기획은 서비스 전략을 짜면서 얻은 인사이트와 아이디어를 '와이어프레임'(프로토타입 전 단계)으로 전환하는 단계이다.<br>
+                    주로 Figma와 Material Design System을 활용해 디자인한다.
+                    기획에서 디자이너는 UI 적합성을 고려해야 한다. 제품의 상황에 맞게 UI를 그릴 줄 알아야 한다는 뜻이다.<br>
+                    인스타그램, 토스, 당근와 같은 우수 디자인을 벤치마킹하되, 내 서비스에 이게 적합한지, 더 나은 방법은 없는지 고민하는 과정이 꼭 필요하다.<br><br></p>
+
+                    <h4 class="fw-bold mb-3" style="color: #000000;">3. UX 구현</h4>
+                    <p>구현이란 Visual Design을 뜻한다. 유사한 표현으로는 GUI(Graphic User Interface)가 있다.<br>
+                    이 부분에서 정말 많이 하는 실수가 있다. 바로 Key Color를 너무 많이 쓰는 것이다. 메인 컬러는 정말 중요한 곳에만 쓰고, 나머지는 Gray Scale을 쓰는 것을 추천한다.<br><br></p>
+
+                    <h4 class="fw-bold mb-3" style="color: #E35A44;">So,</h4>
+                    <p>회사에서는 기본적으로 모든 전략, 기획, 그리고 구현 역량을 두루 갖춘 디자이너를 뽑고자 하지만, 사실 그 회사에서 ux 디자이너의 업무가 모든 역량을 필요로 하진 않을 수 있다.<br>
+                    기획자에 가까울 수도, 그래픽 디자이너에 가까울 수도 있다. 어떤 업무를 하게 될지는 회사마다 다르다.
+                    그렇지만 취업을 위해선 3가지 UX 역량을 두루 갖추되, 그 중 하나 정도는 더 잘해야한다. </p>
+            </div>
+        </div>
+    </section>
+    <!-- 2. UX Ability 섹션 끝 -->
+
+
+    <!-- 3. Product Thinking 섹션 시작 -->
+    <section class="container overflow-hidden py-5" id="service">
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold mb-3">Product Thinking</h2>
+            <p class="lead text-muted">잘하는 UX Designer가 되기 위해 필요한 궁극적인 역량</p>
+            <img src="images/diagram.png" alt="다이어그램" class="img-fluid">
+            <p>위에 설명한 UX Ability의 끝판왕이다. UX 디자이너에게 궁극적으로 필요한 역량이다.<br>사용자가 처할 수 있는 상황을 체계적으로 정리하고, 각 상황에 따라 사용자들이 어떤 정보를 원하거나 필요로 하는지를 파악한 후, 이를 제공하는 것이다. <br>
+                다른 말로 하면, 비즈니스를 고려해서 UX를 기획하여 상품을 성공시키는 역량이다.<br>
+                참고로 이는 잘 알려진 IDEO의 Innovation Sweet Spot과 바로 연결된다. 위 다이어그램은 '혁신'은 사용자가 원하는지, 기술적으로 가능한지, 사업성은 있는지의 세가지 요건이
+                충족되어야 함을 보여준다.</p>
+        </div>
+
+        
+    </section>
+    <!-- 3. Product Thinking 섹션 끝 -->
+
+    <!-- 4. Develop 섹션 시작 -->
+    <section class="container overflow-hidden py-5" id="blog">
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold">UX Ability를 Develop하는 법</h2>
+            <p class="lead text-muted">천재이거나, 경험이 많거나, 노력을 많이 하거나.</p>
+            <p class="mb-5"> UX는 진입 장벽은 낮지만 잘하기는 어렵다.<br>그렇다면? 배운다고 잘하는 게 아니라 응용 역량이 중요하다.</p>
+            <p class="mb-6"> 첫 번째 방법은 프로젝트를 많이 경험해라. 
+                자기가 하고 싶은 분야가 없어도 괜찮다. 상관없다. 
+                뭐든 도전해보고 고민해봐라.</p>
+                    <p class="mb-6"> 두 번째 방법은 자신의 UX역량을 자가진단해보는 것이다.
+                        자신의 포트폴리오를 3개의 역량이 잘 드러나도록 리디자인해라.</p>
+                        <p class="mb-6"> 세 번째 방법은 책을 읽는 것이다. UX를 다루는 책을 읽어야, 다양한 전문가들의 관점을 이해하고 내가 그걸 활용할 수 있다.</p>
+
+                
+        
+    
+            
+        </div>
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold">추천 도서</h2>
+         </div>
+
+        <div class="row pb-5 gy-4">
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/book1.jpg" alt="디자인과 인간심리" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">디자인과 인간심리</h3>
+                        <p class="card-text">도널드 노먼, 2013(1988)</p>
+                        <a href="https://www.yes24.com/Product/Goods/32193000" class="btn btn-warning btn-sm" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/book2.jpg" alt="사용자를 생각하게 하지마!" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5">사용자를 생각하게 하지마!</h3>
+                        <p class="card-text">스티브 크룩, 2014(2000)</p>
+                        <a href="https://www.yes24.com/Product/Goods/15238736" class="btn btn-warning btn-sm" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/book3.jpg" alt="인터페이스 없는 인터페이스" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5">인터페이스 없는 인터페이스</h3>
+                        <p class="card-text">골든 크리슈나, 2015</p>
+                            <a href="https://www.yes24.com/Product/Goods/57992748" class="btn btn-warning btn-sm" target="_blank">Read More</a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg">
+                <div class="card">
+                    <img src="images/book4.jpg" alt="UX 팀 오브 원" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-4">UX 팀 오브 원</h3>
+                        <p class="card-text">리아 블리, 2013</p>
+                        <a href="https://www.yes24.com/Product/Goods/16993327" class="btn btn-warning btn-sm" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- 4. Develop 섹션 끝 -->
+
+
+    <!-- 5. Tip 섹션 시작 -->
+    <section class="py-5" id="news">
+        <div class="container">
+            <div class="row p-4 align-items-center">
+
+                <div class="col-lg-9  text-black">
+                    <h2 class="fw-bold mb-3">Pro Tip</h2>
+                    <p>여기까지 읽은 분들을 위해 하나의 팁을 주고자 한다.</p>
+                    <p>애플에서 제공하는 '미모티콘' 포트폴리오에 그만 써라.이제는 유행이 지났다.</p>
+                    <p>포트폴리오 면접관들은 그 얼굴들을 백번은 본다. "또 이거야?" 상당히 지겨워한다.</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn px-4" data-bs-toggle="modal"
+                        data-bs-target="#newsModal" style="background-color: #5E44E3; color: #ffffff;">
+                        참고 영상
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content ">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="newsModalTitle">14년차 UX/UI 디자이너가 말하는 절대 피해야하는 포트폴리오</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="닫기"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/watch?v=uYjXlhrHr_4"
+                                            title="YouTube video player"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 끝 -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 5. Tip 섹션 끝 -->
+
+
+    <!-- 6. Who am I 섹션 시작 -->
+    <section class="container overflow-hidden py-5 text-center" id="contact">
+
+        <div class="py-5">
+            <h2 class="fw-bold">Who am I</h2>
+            <p class="lead text-muted">이 웹사이트를 만든 사람은 접니다.</p>
+        </div>
+
+        <button type="button" data-bs-toggle="modal" data-bs-target="#bestmenuModal"
+        class="btn btn-outline-dark rounded-pill">더 알아보기</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="bestmenuModal" tabindex="-1" aria-labelledby="bestmenuModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-dark fs-5" id="bestmenuModalLabel">Profile</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/me.JPG" alt="me" class="img-fluid" style="margin-bottom: 20px;">
+                        <p class="text-muted" style="margin-bottom: 20px;" >서울여자대학교 디지털미디어학과<br>
+                        UX Designer 남소빈</p>
+                        <p class="text-muted " >MAIN PROJECTS</p>
+                        <p class="text-muted " style="margin-bottom: 5px;" >2022 야놀자 웹 리디자인</p>
+                        <p class="text-muted " style="margin-bottom: 5px;">2023 사회초년생 자기계발 서비스 디자인</p>
+                        <p class="text-muted " style="margin-bottom: 5px;">2023 퇴직한 중장년층의 멘토링 앱 제작</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 끝 -->
+
+
+        <div class="row py-5 gy-3">
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-envelope-heart fs-5 text-dark"></i>
+                    <h3 class="fw-bold fs-5 py-2">이메일</h3>
+                    <hr>
+                    <p class="text-muted">namsobin@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-telephone-fill fs-5 text-dark"></i>
+                    <h3 class="fw-bold fs-5 py-2">전화번호</h3>
+                    <hr>
+                    <p class="text-muted">010-4911-4542</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="shadow p-4 border-bottom border-4 border-dark">
+                    <i class="bi bi-pencil-fill fs-5 text-dark"></i>
+                    <h3 class="fw-bold fs-5 py-2">분야</h3>
+                    <hr>
+                    <p class="text-muted">UX 전략 및 기획</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 6. Who am I 섹션 끝 -->
+
+    <!-- 6-1. Portfolio 시작 -->
+    <section class="py-5" id="sns-links">
+        <div class="container text-center text-black">
+            <h2 class="fw-bold mb-3">Portfolio</h2>
+            <p>포트폴리오를 보고 싶다면,</p>
+            <div class="d-flex justify-content-evenly px-5 mt-4 w-50 m-auto">
+                <a href="https://drive.google.com/file/d/1QUiSflOmaHgs95C9R2_zx_qoprU2KX5Q/view?usp=sharing" target="_blank"
+                    class="btn btn-warning rounded-pill btn-lg px-4"><i class="bi bi-book"></i></a>
+                <a href="https://www.behance.net/gallery/186943283/Cookieswumas" target="_blank" class="btn btn-danger rounded-pill btn-lg px-4"><i class="bi bi-boxes"></i></a>
+                <a href="https://www.youtube.com/watch?v=ctBfBNGjRV4&t=8s" target="_blank" class="btn btn-primary rounded-pill btn-lg px-4"><i class="bi bi-balloon-fill"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- 6-1. Portfolio 섹션 끝 -->
+
+
+
+    <!-- 풋터 시작 -->
+    <footer class="bg-dark text-white">
+        <div class="container text-center">
+            <p class="py-4 mb-0">Copyright <i class="bi bi-c-circle"></i> 2023 Designed by <a
+                    href="https://www.codethem.co.kr/" target="_blank"
+                    class="gugi-font link-warning text-decoration-none">Basic UX Design</a></p>
+        </div>
+    </footer>
+    <!-- 풋터 끝 -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- Top Button -->
+    <button id="topBtn" onclick="topFunction()" title="Go to top">&#9650;</button>
+
+    <script>
+        // 페이지 최상단으로 이동하는 함수
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // 스크롤 위치에 따라 Top Button 표시/숨김 제어
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("topBtn").style.display = "block";
+            } else {
+                document.getElementById("topBtn").style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

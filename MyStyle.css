@@ -1,0 +1,83 @@
+body {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    font-family: "pretendard", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "pretendard", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+.gugi-font {
+    font-family: 'Lexend', sans-serif;
+
+}
+
+
+/* 네비게이션 영역 */
+.navbar-nav .nav-link {
+    color: #6c757d; /* 일반 상태 색상 */
+}
+.navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+        color: #E35A44 !important; /* 호버 및 active 상태 색상 */
+    }
+
+ /* 페이지 최상단으로 이동하는 Top Button 스타일 */
+ #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 19px;
+    background-color: #5E44E3;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #2c2c2c; /* 마우스 오버 시 배경색 변경 */
+}
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+.card-hover:hover {
+    background-color: #ffc10726;
+}
+
+
+
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
